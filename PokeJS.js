@@ -63,7 +63,7 @@ function save(){
     }
  
  
- xhttp.open("Post", 'http://ec2-18-223-255-74.us-east-2.compute.amazonaws.com:9025/new/'+name.toLowerCase()+'/'+id+'/'+type+'/'+parseInt(hp,10));
+ xhttp.open("Post", 'http://ec2-3-138-110-126.us-east-2.compute.amazonaws.com:9025/new/'+name.toLowerCase()+'/'+id+'/'+type+'/'+parseInt(hp,10));
  xhttp.send();
 }
 function see(){
@@ -86,7 +86,7 @@ function see(){
     }
  
  
- xhttp.open("Get", 'http://ec2-18-223-255-74.us-east-2.compute.amazonaws.com:9025/Allpoke');
+ xhttp.open("Get", 'http://ec2-3-138-110-126.us-east-2.compute.amazonaws.com:9025/Allpoke');
  xhttp.send();
 }
 function s3upload() {
